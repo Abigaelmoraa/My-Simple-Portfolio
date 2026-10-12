@@ -78,11 +78,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Abigael Moraa | Software Developer Portfolio" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Abigael Moraa, Software Engineering graduate and Software Developer based in Nairobi, Kenya.",
+      },
+      { name: "author", content: "Abigael Moraa" },
+      { property: "og:title", content: "Abigael Moraa | Software Developer Portfolio" },
+      {
+        property: "og:description",
+        content:
+          "Portfolio of Abigael Moraa, Software Engineering graduate and Software Developer based in Nairobi, Kenya.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
